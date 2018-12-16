@@ -11,9 +11,12 @@
 * Stm32F4xx
 * DP83848
 
-## Prerequisites
-* FreeRTOSv9.0.0
-* Keil.STM32F4xx_DFP.2.9.0.pack
+## Dependency
+* FreeRTOSv9.0.0 (have been included in this package)
+* FreeRTOS-Plus-TCP() (have been included in this package)
+* Keil.STM32F4xx_DFP.2.9.0.pack (Please pre-install)
 
 ## Related
 * [FreeRTOS+TCP](https://www.freertos.org/FreeRTOS-Plus/FreeRTOS_Plus_TCP/index.html)
+
+## Some config
