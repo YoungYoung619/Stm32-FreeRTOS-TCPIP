@@ -20,3 +20,11 @@
 * [FreeRTOS+TCP](https://www.freertos.org/FreeRTOS-Plus/FreeRTOS_Plus_TCP/index.html)
 
 ## Some config
+### Proj structure
+![proj structure](pic/1.png)
+
+### Include Path
+![Include Path](pic/2.png)
+
+## Detailed configuration tutorial
+* CSDN Blog(https://blog.csdn.net/weixin_37673586/article/details/79253597) (CN)
