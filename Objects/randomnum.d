@@ -1,0 +1,15 @@
+.\objects\randomnum.o: User\randomNum.c
+.\objects\randomnum.o: .\User\include\randomNum.h
+.\objects\randomnum.o: E:\stm32software\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rng.h
+.\objects\randomnum.o: E:\stm32software\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h
+.\objects\randomnum.o: E:\stm32software\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+.\objects\randomnum.o: E:\stm32software\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h
+.\objects\randomnum.o: E:\stm32software\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h
+.\objects\randomnum.o: E:\stm32software\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\randomnum.o: E:\stm32software\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+.\objects\randomnum.o: E:\stm32software\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+.\objects\randomnum.o: E:\stm32software\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+.\objects\randomnum.o: E:\stm32software\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
+.\objects\randomnum.o: E:\stm32software\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\randomnum.o: E:\stm32software\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h
+.\objects\randomnum.o: E:\stm32software\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h

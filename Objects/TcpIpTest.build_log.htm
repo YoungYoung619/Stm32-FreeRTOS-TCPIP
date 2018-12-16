@@ -1,0 +1,138 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: young 桑三博客, Www.SangSan.Cn, LIC=X1E74-FNUI2-68JFC-7HNH3-QL622-UPCLR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  E:\stm32software\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+E:\my_project\毕业课设\STM32f4\stm32F4FreeRtosTcpIp\TcpIpTest.uvprojx
+Project File Date:  01/27/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'E:\stm32software\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+User\main.c(25): warning:  #223-D: function "vTaskStartScheduler" declared implicitly
+  	vTaskStartScheduler();
+User\main.c: 1 warning, 0 errors
+compiling netInfoConfig.c...
+User\netInfoConfig.c(18): warning:  #1295-D: Deprecated declaration UDP_DEBUG_INIT - give arg types
+  static BaseType_t UDP_DEBUG_INIT();
+User\netInfoConfig.c: 1 warning, 0 errors
+linking...
+Program Size: Code=43054 RO-data=1566 RW-data=324 ZI-data=63844  
+".\Objects\TcpIpTest.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ::CMSIS Driver:Ethernet MAC:2.1.0 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: Ethernet MAC Version: 2.1.0
+   * Component: Ethernet PHY Version: 2.1.0
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.4.0.pack
+                Keil::CMSIS Driver:Ethernet PHY:DP83848C:6.1.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: DP83848C Version: 6.1.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.9.0.pack
+                ::Device:STM32Cube Framework:1.0.0 (API)
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: Startup Version: 2.5.0
+   * Component: Classic Version: 1.5.0
+   * Component: Common Version: 1.5.0
+   * Component: Cortex Version: 1.5.0
+   * Component: GPIO Version: 1.5.0
+   * Component: PWR Version: 1.5.0
+   * Component: RCC Version: 1.5.0
+   * Component: RNG Version: 1.5.0
+   * Component: Ethernet MAC Version: 2.6
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F407VETx
+  .\RTE\_Target_1
+  E:\stm32software\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include
+  E:\stm32software\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  E:\stm32software\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+  E:\stm32software\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS Driver:Ethernet MAC:2.1.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_ETH_MAC.h
+
+   * Component: ::CMSIS Driver:Ethernet PHY:2.1.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_ETH_PHY.h
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+
+   * Component: Keil::CMSIS Driver:Ethernet PHY:DP83848C:6.1.0
+      Source file:   Network\Driver\PHY_DP83848C.c
+
+   * Component: ::Device:STM32Cube Framework:1.0.0 (API)
+
+   * Component: Keil::Device:Startup:2.5.0
+      Source file:   MDK\Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+
+   * Component: Keil::Device:STM32Cube Framework:Classic:1.5.0
+      Include file:  CMSIS\Driver\Config\RTE_Device.h
+      Include file:  MDK\Templates\Inc\stm32f4xx_hal_conf.h
+      Source file:   MDK\Templates\Src\stm32f4xx_hal_msp.c
+      Include file:  MDK\Templates\Inc\stm32f4xx_it.h
+      Source file:   MDK\Templates\Src\stm32f4xx_it.c
+      Include file:  MDK\Templates\Inc\main.h
+      Source file:   MDK\Templates\Src\main.c
+
+   * Component: Keil::Device:STM32Cube HAL:Common:1.5.0
+      Include file:  Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+
+   * Component: Keil::Device:STM32Cube HAL:PWR:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:RCC:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:RNG:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c
+
+   * Component: Keil::CMSIS Driver:Ethernet MAC:2.6
+      Source file:   CMSIS\Driver\EMAC_STM32F4xx.c
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>
